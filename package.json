@@ -1,0 +1,56 @@
+{
+  "name": "quickstart-frontend-react",
+  "private": true,
+  "description": "Your projects description",
+  "version": "0.1.0",
+  "author": "Mamadou Ouologuem <mamadou.ouologuem02@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "GATSBY_ACTIVE_ENV=development npm run develop",
+    "serve": "gatsby serve",
+    "deploy:prod": "GATSBY_ACTIVE_ENV=production yarn build && echo \"Command for deploying in prop\"",
+    "deploy:staging": "GATSBY_ACTIVE_ENV=development yarn build && echo \"Command for deploying in staging\"",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/styles": "^4.5.0",
+    "babel-eslint": "^10.0.3",
+    "dotenv": "^8.1.0",
+    "gatsby": "^2.15.36",
+    "gatsby-plugin-google-analytics": "^2.1.21",
+    "gatsby-plugin-manifest": "^2.2.21",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-offline": "^3.0.14",
+    "gatsby-plugin-react-helmet": "^3.1.11",
+    "gatsby-plugin-sharp": "^2.2.29",
+    "gatsby-source-filesystem": "^2.1.31",
+    "gatsby-transformer-sharp": "^2.2.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-material-ui": "^1.0.1",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamadOuologuem/quickstart-frontend-react"
+  },
+  "bugs": {
+    "url": "https://github.com/mamadOuologuem/quickstart-frontend-react/issues"
+  }
+}
