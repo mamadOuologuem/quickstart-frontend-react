@@ -1,9 +1,14 @@
 import React from 'react';
 
-const IndexPage = () => (
-  <div>
-    Hello World
-  </div>
+import Layout from '../components/layouts/Layout';
+import HomeImage from '../components/home/HomeImage';
+import SpecialComp from '../components/ui/SpecialComp';
+
+const HomePage = () => (
+  <Layout routeSlug="HomePage">
+    <HomeImage />
+    <SpecialComp />
+  </Layout>
 );
 
-export default IndexPage;
+export default HomePage;

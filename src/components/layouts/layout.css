@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* Roboto font */
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("./fontFamily/roboto/RobotoRegular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("./fontFamily/roboto/RobotoMedium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("./fontFamily/roboto/RobotoBold.ttf") format("truetype");
+  font-weight: bold;
+}

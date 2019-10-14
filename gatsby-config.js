@@ -3,6 +3,7 @@ module.exports = {
     title: 'Quick starter',
     description: 'Seo main description',
     author: '@mamadOuologuem',
+    url: 'www.website-url.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
